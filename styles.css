@@ -1,0 +1,290 @@
+body {
+  background-color: #7e9df1;
+  text-align: center;
+}
+.bussiness{
+    width: 50px;
+    height: 50px;
+}
+.circular{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+.camera{
+    width: 20px;
+    height: 20px;
+}
+.photoshop{
+    width: 20px;
+    height: 20px;
+}
+h1 {
+    /* 100% is 16px in terms of pixels. */
+    font-size: 5em;
+    height: 2;
+    font-family: "Sacramento", cursive;
+    color: #000000;
+}
+.skill-row{
+    margin: auto;
+    /* margin: 100px auto 100px auto; */
+    text-align: center;
+}
+h2 {
+    font-family: "Sacramento", cursive;
+    font-weight: normal;
+    /* font-family: "Merriweather", serif; */
+}
+h3{
+    font-family: "Merriweather", serif;
+    
+}
+.footer-link{
+    color: rgb(56, 36, 5);
+}
+.btn{
+    color: rgb(56, 36, 5);
+}
+.about {
+  /* font-family: "Montserrat Alternates", sans-serif; */
+  font-family: 'Anton', sans-serif;
+  color: #000000;
+  /* font-family: 'Merriweather', serif;
+
+  font-family: 'Montserrat Alternates', sans-serif; */
+}
+div{
+    background-color: white;
+}
+.top-cloud {
+  position: relative;
+  padding-top: 50px;
+  /* left: 200px */
+  left: 300px;
+  top: 50px;
+}
+.bottom-cloud {
+  /* margin-top: 200px; */
+  position: relative;
+  /* position: relative; */
+  right: 600px;
+  bottom: 300px;
+}
+hr{
+    /* border-style: groove;
+    width: 20%;
+    background-color: #050505;
+    /* border-: 100%; */
+    /* height: 10px; */
+    
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 20%;
+}
+.pf {
+  width: 200px;
+  /* background-color: red; */
+  border-style: groove;
+  border-color: #ec175e;
+  border-width: 10px;
+  height: 200px;
+}
+.skillImg{
+    width: 200px;
+  /* background-color: red; */
+  border-style: groove;
+  border-color: #ec175e;
+  border-width: 10px;
+  height: 200px;
+}
+li{
+    list-style: none;
+}
+p{
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Merriweather', serif;
+
+    font-family: 'Montserrat Alternates', sans-serif;
+
+    /* font-family: 'Sacramento', cursive; */
+/* 
+    font-family: 'Anton', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+    font-family: 'Sacramento', cursive; */
+}
+
+.mountain {
+    width: 400px;
+    height: 400px;
+    padding-left: 170px;
+    padding-top: 100px;
+    /* border-radius: 100%; */
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    -webkit-box-shadow: 0px 1px 3px #87c1f5;
+    -moz-box-shadow: 0px 1px 3px #87c1f5;
+    box-shadow: 0px 1px 3px #87c1f5;
+    font-family: Georgia;
+    color: #0d0d0d;
+    font-size: 23px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+/* {
+
+    display proerty has 4 values:
+    1) block 
+    2) inline
+    3) inline-block
+    4) None
+
+    1)block elements: elements which takes up the entire space of the block irrespecitve of the amount and size of the content.
+    
+    we cannot change the height but we can change the widht of it also even after changing the widht of the block elements their would be no use as the block element would still take the entire block.
+    
+    but we can change the display property of any element.
+    
+    2) display: inline; // which makes all the elements inline and allows every element to sit next to each other on the same line.
+
+    3) inline-block of display property, it allows both the properites of inline and block element.
+    images are also dispalyed as inline-block element by default.
+    
+    4) None -> it just get rid of our element.
+
+    their is another attribute or property called as visibility
+    In visibility firstly we have i) hidden, it makes the element disappear but it keeps its original position and all the other element still flow around it as if it's still there.
+} */
+
+/* 
+CSS positioning{
+    p -> point
+    Rules:
+    1) Content is Everything
+    
+    p1-> as we know that inline elements only take up as much widht and height as the size of the content.
+
+    p2-> where as the block elements, they take the whole block but the height is still decided by the content.
+    conclusion: -> our content is the first thing that determines how large things get displayed and  what the height and the widht will be.
+
+
+    2) Order Comes from Code:
+    if we have 
+    <img>
+    <h1> </h1>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    this will be displayed up side down.
+
+
+    3) Children Sit on Parents:
+    <div>
+    <h1>Aayush bhat is here.</h1>
+    </div>
+    so the h1 would be more towards the user and away from the screen. 
+    This introduces the concept of Z-index(axis)
+    
+    It is like layers of skin.
+    muscles
+    subcutaneous tissue 
+    dermis
+    epidermis
+}
+
+
+position-proptery{
+    1) Static
+    2) Relative
+    3) Absoulte 
+    4) Fixed
+
+    1) Static -> all HTML elements are static on their position by default.
+
+    2) Relative -> element with position: relative; is positioned relative to its normal position.
+    .pro{
+        position: relative;
+        left: 100px;
+    }
+    this will reposition the .pro class from it's original positon by the amount given below it 
+    it majorly have 4 coordinate property. 
+    i) left ii) right iii) top iv) bottom
+
+    *****Important******
+    i) It doesnot make any effect on any other element on the website.
+
+    ii) top/bottom/right/left : 50px means push down/push up / move left / move right respectively  the top border of the element by 50px.
+
+}
+
+
+absolute-positioning{
+    it is relative to the parent, it changes the position of the element according to the parent now in the case of top-container the parent is entire webpage, so it will move according to the web page.
+    simply it means adding a margin to its parent element.
+    the element in which the absoulte positioning was used, it's no longer considered a part of the natutral flow of the code or document.
+    now the element can be moved to any part of the screen relative to the web page.
+}
+*/
+/* .bottom-container{
+    position: absolute;
+    left: 0px;
+    bottom: 200px;
+}
+.top-container{
+    position: absolute;
+    left: 217px;
+    top: 770px;
+}
+.middle-container{
+    position: absolute;
+    left: 430px;
+    top: 980px;
+} */
+
+/* 
+text-align{
+    one the use of text align is to make the text in center.
+    this will work till we have inline block elements or block elements.
+            top, right, bottom, left
+    mergin: 0 auto 0 auto;
+
+}
+*/
+/* 
+font{
+    we can use the fonts that are provided by google and most of the computers have them.
+    steps:
+
+    1. go to fonts.google.com
+    2. select font
+    3. open the font page and copy paste the link in the index.html file.
+    4. copy the css code given in the font page.
+}
+
+*/
